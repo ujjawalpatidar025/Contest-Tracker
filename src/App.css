@@ -1,5 +1,29 @@
+@import "https://fonts.googleapis.com/css2?family=Ubuntu&display=swap";
+
+body{
+  margin:0;
+  padding:0;
+  background-color: #f1eded;
+  /* overflow: hidden; */
+  height: auto;
+  background-repeat: no-repeat;
+  
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .App {
+  font-family: 'Ubuntu' !important;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  
+  
+  
+
+  
+
 }
 
 .App-logo {
