@@ -69,7 +69,7 @@ const Register = () => {
 
                         <TextField
                             variant='outlined'
-                            color='secondary'
+                            color='primary'
                             value={Username}
                             type='text'
                             label='Username'

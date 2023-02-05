@@ -9,14 +9,29 @@ import MenuIcon from '@material-ui/icons/Menu';
 import { shadows } from '@material-ui/system';
 import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
 import { Avatar } from '@material-ui/core';
-import { Box } from '@material-ui/core';
+import { Box, Menu, MenuItem } from '@material-ui/core';
 
 const Navbar = () => {
     const [checkLogin, setcheckLogin] = useState(true)
 
+
+
+
+
+    // const [anchorEl, setAnchorEl] = useState < null | HTMLElement > (null);
+    // console.log(anchorEl)
+
+    // const handleClick = (event) => {
+    //     setAnchorEl(event.currentTarget);
+    // };
+
+    // const handleClose = () => {
+    //     setAnchorEl(null);
+    // };
+
     return (
         <div position='fixed'>
-            <AppBar position="fixed" Top='0px' color='primary' component='div' boxShadow={3} m={0} p={0} style={{ padding: '0',overflow:'hidden' }}>
+            <AppBar position="fixed" Top='0px' color='primary' component='div' boxShadow={3} m={0} p={0} style={{ padding: '0', overflow: 'hidden' }}>
                 <Toolbar >
 
                     <IconButton color='inherit' size='large' aria-label='logo'>
@@ -55,10 +70,25 @@ const Navbar = () => {
                         right: '40px'
 
                     }}>
-                        {checkLogin ? <Avatar >U</Avatar> : <Typography>
+                        {/* {checkLogin ? <Avatar aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} >U</Avatar> : <Typography>
                             <Button size='large' style={{ color: 'white', textTransform: 'capitalize' }}> Sign In</Button>
                             <Button size='large' style={{ color: 'white', textTransform: 'capitalize' }}> Sign up </Button>
-                        </Typography>}
+                        </Typography>} */}
+
+                        {/* <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} >U</Button>
+
+
+                        <Menu
+                            id="simple-menu"
+                            anchorEl={anchorEl}
+                            keepMounted
+                            open={Boolean(anchorEl)}
+                            onClose={handleClose}
+                        >
+                            <MenuItem onClick={handleClose}>Profile</MenuItem>
+                            <MenuItem onClick={handleClose}>My account</MenuItem>
+                            <MenuItem onClick={handleClose}>Logout</MenuItem>
+                        </Menu> */}
 
                     </Typography>
 
