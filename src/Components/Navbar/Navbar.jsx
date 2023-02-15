@@ -21,9 +21,9 @@ const Navbar = () => {
     // const [anchorEl, setAnchorEl] = useState < null | HTMLElement > (null);
     // console.log(anchorEl)
 
-    // const handleClick = (event) => {
-    //     setAnchorEl(event.currentTarget);
-    // };
+    const handleClick = (event) => {
+        setcheckLogin(false);
+    };
 
     // const handleClose = () => {
     //     setAnchorEl(null);
@@ -70,10 +70,10 @@ const Navbar = () => {
                         right: '40px'
 
                     }}>
-                        {/* {checkLogin ? <Avatar aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} >U</Avatar> : <Typography>
+                        {checkLogin ? <Avatar aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} >U</Avatar> : <Typography>
                             <Button size='large' style={{ color: 'white', textTransform: 'capitalize' }}> Sign In</Button>
                             <Button size='large' style={{ color: 'white', textTransform: 'capitalize' }}> Sign up </Button>
-                        </Typography>} */}
+                        </Typography>}
 
                         {/* <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} >U</Button>
 
