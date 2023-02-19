@@ -1,0 +1,23 @@
+.card{
+    width:100vw;
+    min-height:80vh;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img{
+    transition: all ease-in-out 0.5s;
+    height:120px;
+    margin:20px;
+    width:120px;
+    cursor: pointer;
+}
+
+img:hover{
+    transform: scale(1.5);
+    
+
+}

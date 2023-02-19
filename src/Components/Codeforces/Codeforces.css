@@ -1,0 +1,42 @@
+
+.table-responsive{
+    overflow-x: auto;
+    width:100vw;
+    min-height:86vh;
+    height:auto;
+    
+
+}
+.block{
+    width:500px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin:50px;
+    
+    height: 50px;
+   
+    overflow-x: auto;
+    min-width: 200px;
+    background-color: rgba(59, 58, 58, 0.392);
+}
+
+.tbody{
+    width:100vh;
+    overflow-x: auto;
+}
+
+.head{
+    min-height: '50px';
+    height:'auto';
+    overflow-x: auto;
+
+}
+
+.table{
+    width:100vw;
+    margin:80px 0;
+}
+.tabBody{
+    width:100vw;
+    text-align: center;
+}

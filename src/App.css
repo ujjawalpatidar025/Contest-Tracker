@@ -1,9 +1,14 @@
 @import "https://fonts.googleapis.com/css2?family=Ubuntu&display=swap";
 
+:root{
+  --black:"#121212";
+}
+
 body{
   margin:0;
   padding:0;
   background-color: #f1eded;
+  color:white;
   /* overflow: hidden; */
   height: auto;
   background-repeat: no-repeat;
